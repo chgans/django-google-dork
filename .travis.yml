@@ -1,15 +1,20 @@
 language: python
 
 python:
-  - 3.3
-  - 3.4
+  3.3
+  3.4
+
+env:
+  DJANGO=Django==1.7.1
+  DJANGO=https://github.com/django/django/archive/master.zip
 
 install:
   - pip install -r requirements.txt
   - pip install -r requirements_dev.txt
 
 script:
-  coverage run --source=moscowdjango,meetup manage.py test
+  cd tests
+  coverage run --source=google_dork --omit=*/migrations/* ./manage.py test
 
 after_success:
   coveralls
