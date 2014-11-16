@@ -1,4 +1,4 @@
-Copyright (c) 2014, Christian Gagneraud
+__Copyright (c) 2014, Christian Gagneraud__
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
