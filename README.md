@@ -12,7 +12,9 @@ A django app to manage Google dorks, run them and cache results.
 Status
 ======
 
-This is very early code. It builds, there's a good test suite, it is even usable but it definitely need proper documentation. Will come soon, stay tuned
+This is very early code. It builds sucessfully (with Django-1.7.1),
+there's a good test suite, it is even usable but it definitely need
+proper documentation. Will come soon, stay tuned
 
 Documentation
 =============
