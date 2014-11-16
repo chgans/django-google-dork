@@ -9,6 +9,7 @@ setup(
     author='Christian Gagneraud',
     author_email='chgans@gna.org',
     url='http://github.com/chgans/django-google-dork',
+    license='BSD',
     packages=[
         'django_google_dork',
         ],
