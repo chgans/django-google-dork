@@ -2,7 +2,7 @@ from django.test import TestCase
 from django.db import IntegrityError
 from django.core.exceptions import ValidationError
 
-from google_dork.models import Campaign, Dork, Run, Result
+from django_google_dork.models import Campaign, Dork, Run, Result
 
 class TestCampaign(TestCase):
 

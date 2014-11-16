@@ -14,7 +14,7 @@ install:
 
 script:
   - cd tests
-  - coverage run --source=google_dork --omit=*/migrations/* ./manage.py test
+  - coverage run --source=django_google_dork --omit=*/migrations/* ./manage.py test
 
 after_success:
   - coveralls
