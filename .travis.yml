@@ -18,8 +18,10 @@ install:
   - pip install $DJANGO
   - pip install -r requirements.txt
   - pip install -r requirements-dev.txt
+  - pip install -r requirements-doc.txt
 
 script:
+  - mkdocs build
   - cd tests
   - coverage run --source=django_google_dork --omit=*/migrations/* ./manage.py test
 

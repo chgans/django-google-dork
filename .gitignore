@@ -4,6 +4,7 @@
 [#]*[#]
 tests/cover
 db.sqlite3
+site/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

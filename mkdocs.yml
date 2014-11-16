@@ -1,0 +1,11 @@
+site_name: django-google-dork
+site_url: https://django-google-dork.readthedocs.org
+repo_url: https://github.com/chgans/django-google-dork
+site_author: Christian Gagneraud <chgans AT gna DOT org>
+
+pages:
+- ['index.md', 'Django Google Dork']
+- ['introduction.md', 'Introduction']
+- ['usage.md', 'Usage']
+
+theme: readthedocs
