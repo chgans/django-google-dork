@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name='django-google-dork',
-    version='0.1',
+    version='0.2',
     description='A django app to manage Google dorks, run them and cache results.',
     author='Christian Gagneraud',
     author_email='chgans@gna.org',
