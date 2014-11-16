@@ -16,5 +16,6 @@ script:
   - cd tests
   - coverage run --source=django_google_dork --omit=*/migrations/* ./manage.py test
 
+# TODO: only w/ django-1.7 and python-3.3
 after_success:
   - coveralls
