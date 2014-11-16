@@ -11,7 +11,7 @@ env:
 matrix:
   # 2014-11-16: global failure due to django-nose failure
   allow_failures:
-    - DJANGO=https://github.com/django/django/archive/master.zip
+    - env: DJANGO=https://github.com/django/django/archive/master.zip
 
 install:
   - sudo apt-get install libxml2-dev libxslt-dev
