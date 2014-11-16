@@ -9,6 +9,11 @@ django-google-dork
 
 A django app to manage Google dorks, run them and cache results.
 
+Status
+======
+
+This is very early code. It builds, there's a good test suite, it is even usable but it definitely need proper documentation. Will come soon, stay tuned
+
 Documentation
 =============
 [Read the docs &rarr;](https://django-google-dork.readthedocs.org)
