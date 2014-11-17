@@ -11,11 +11,22 @@ django-google-dork
 A django app to manage Google dorks, run them and cache results.
 
 Status
-======
+=======
 
-This is very early code. It builds sucessfully (with Django-1.7.1),
-there's a good test suite, it is even usable but it definitely need
-proper documentation. Will come soon, stay tuned
+**This is highly experimental, unfinished, work in progress.**
+
+If you're looking for something you can use, they try again later...
+
+The reason I'm publishing packages and documentation publically is
+because this is part of my continuous integration system.
+
+As soon as the code is usable and has sufficient features, I will
+publish it as version 1.0.
+
+Anything with a version lower than 1.0 is not guarented to work as the
+documentation said, althrough I will publish only version of the
+code that pass the build and the test steps.
+
 
 TODO
 ====
