@@ -33,6 +33,7 @@ By priority order:
 * Improve coverage
 * Add blacklisting and/or url match/exclude patterns (all regexp)
 * Add initial data?
+* Add template for dork progress indicators (Jobtastic w/ jquery-celery)
 
 Documentation
 =============
