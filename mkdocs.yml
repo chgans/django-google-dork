@@ -7,5 +7,6 @@ pages:
 - ['index.md', 'Django Google Dork']
 - ['introduction.md', 'Introduction']
 - ['usage.md', 'Usage']
+- ['development.md', 'For developpers']
 
 theme: readthedocs
