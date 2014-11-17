@@ -11,7 +11,7 @@ class SearchEngineManager(models.Manager):
     """
     def random(self):
         """
-        return a google search engine randomly selected among the enablked ones
+        return a google search engine randomly selected among the enabled ones
         """
         return random.choice(self.filter(enabled=True))
 
@@ -41,9 +41,9 @@ class CampaignNameField(models.CharField):
 
 class Campaign(TimeStampedModel):
     """
-    A Campaign is a named dork container that allows you to group your dorks a logical way.
+    A Campaign is a named dork container that allows you to group your dorks in a logical way.
     
-    Campaign have a unique ``name`` and can be enabled/disabled using the proerty ``enabled``
+    Campaign have a unique ``name`` and can be enabled/disabled using the property ``enabled``
     """
     name = CampaignNameField(unique=True)
     enabled = models.BooleanField(default=True)
@@ -53,7 +53,7 @@ class Campaign(TimeStampedModel):
     @property
     def run_set(self):
         """
-        Return a query_set for all the dork runs of this campaign 
+        A QuerySet containing all the dork runs of this campaign 
         """
         qs = Run.objects.none()
         for dork in self.dork_set.all():
@@ -63,7 +63,8 @@ class Campaign(TimeStampedModel):
     @property
     def result_set(self):
         """
-        Return a query_set for all the results of all the dork runs of this campaign 
+        A QuerySet containing all the results found during all the
+        dork runs associated with this campaign
         """
         qs = Result.objects.none()
         for run in self.run_set.all():
@@ -92,7 +93,7 @@ class Dork(TimeStampedModel):
     would type in the google search box.  Dorks can be enabled/disabled by
     setting the ``enabled`` property.
     
-    Notes: ``query`` and ``campaign`` are unique together, that is a
+    Notes: ``query`` and ``campaign`` are unique together, that is
     identical queries cannot be associated with the same campaign.
     """
     campaign = models.ForeignKey('Campaign')
@@ -105,7 +106,7 @@ class Dork(TimeStampedModel):
     @property
     def result_set(self):
         """
-        This property holds a QuerySet for all the results found during all runs
+        A QuerySet containing all the results found during all runs of this Dork
         """
         qs = Dork.objects.none()
         for run in self.run_set.all():
