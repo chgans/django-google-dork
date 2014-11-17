@@ -2,7 +2,7 @@ django-google-dork
 ==================
 
 [![License](http://img.shields.io/pypi/l/django-google-dork.svg)](https://github.com/chgans/django-google-dork/blob/master/LICENSE.md)
-[![Documetation](https://readthedocs.org/projects/pip/badge/) 
+[![Documentation](https://readthedocs.org/projects/pip/badge/)](https://django-google-dork.readthedocs.org)
 [![pypi version](http://img.shields.io/pypi/v/django-google-dork.svg)](https://pypi.python.org/pypi/django-google-dork) 
 [![pypi download month](http://img.shields.io/pypi/dm/django-google-dork.svg)](https://pypi.python.org/pypi/django-google-dork) 
 [![Build Status](https://travis-ci.org/chgans/django-google-dork.svg?branch=master)](https://travis-ci.org/chgans/django-google-dork) 
