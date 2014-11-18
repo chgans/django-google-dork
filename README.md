@@ -33,18 +33,18 @@ TODO
 
 By priority order:
 
-* Add downloader concept
-* Add admin models
-* Add support for async tasks (rabbitmq) and tests
-* Test with multiple DB (sqlite, mysql, posgres) to make sure we're UTF-8 compliant
-* Add tests with non latin/western encoding (russian, chinese, ...)
-* refactor custom fields (Campaign and Dork)
-* Make sure PyPi packages are working correctly
-* Write comprehensive documentation (installation, concepts and rational, usage, dev & test, API, ...)
-* Improve coverage
-* Add blacklisting and/or url match/exclude patterns (all regexp)
-* Add initial data?
-* Add template for dork progress indicators (Jobtastic w/ jquery-celery)
+* [ ] Add downloader concept
+* [ ] Add admin models
+* [ ] Add support for async tasks (rabbitmq) and tests
+* [ ] Test with multiple DB (sqlite, mysql, posgres) to make sure we're UTF-8 compliant
+* [ ] Add tests with non latin/western encoding (russian, chinese, ...)
+* [ ] refactor custom fields (Campaign and Dork)
+* [ ] Make sure PyPi packages are working correctly
+* [ ] Write comprehensive documentation (installation, concepts and rational, usage, dev & test, API, ...)
+* [ ] Improve coverage
+* [ ] Add blacklisting and/or url match/exclude patterns (all regexp)
+* [ ] Add initial data?
+* [ ] Add template for dork progress indicators (Jobtastic w/ jquery-celery)
 
 Documentation
 =============
