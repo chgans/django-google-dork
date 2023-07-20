@@ -1,5 +1,5 @@
 PyYAML==5.4
-Pygments==2.7.4
+Pygments==2.15.0
 bpython==0.13.1
 coverage==3.7.1
 coveralls==0.4.4
